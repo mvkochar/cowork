@@ -1,0 +1,126 @@
+.home-main {
+    margin-top: 48px;
+    margin-left: 16px;
+    gap: 16px;
+}
+
+.home-main-info {
+    width: 933px;
+    padding-top: 72px;
+    padding-bottom: 32px;
+    padding-left: 32px;
+    background-color: var(--black);
+    border-radius: 32px;
+
+    .h1-title {
+        width: 869px;
+        text-transform: uppercase;
+        color: var(--white);
+
+        &::after {
+            content: "";
+            display: block;
+            width: 348.76px;
+            height: 139.31px;
+            margin-top: -113px;
+            margin-left: 320px;
+            background:url("/images/vector1.svg") no-repeat;
+        }
+    }
+}
+
+.home-main-bottom {
+    margin-top: 154px;
+    gap: 255px;
+
+    .subheading {
+        width: 560px;
+        text-transform: uppercase;
+        color: var(--white);
+
+        &::before {
+            content: '';
+            display: block;
+            width: 200px;
+            height: 1px;
+            margin-bottom: 8px;
+            background-color: #D9D9D9;
+        }
+    }
+}
+
+.home-main-claim {
+    display: block;
+    width: 254px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    background-color: var(--bold-red);
+    border-radius: 100px;
+    font-family: 'General Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: var(--white);
+}
+
+.home-partners {
+    margin-top: 80px;
+}
+
+.home-partners-title {
+    font-family: 'General Sans', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 150%;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--blue);
+}
+
+.home-partners-logos {
+    margin-top: 24px;
+    margin-left: 16px;
+}
+
+.home-features {
+    margin-top: 104px;
+
+    .h2-title {
+        width: 722px;
+        margin: 0 auto;
+        background: url("/public/images/features-title.png") no-repeat 305px;
+
+        span {
+            margin-left: 212px;
+        }
+    }
+}
+
+.home-features-box {
+    margin-top: 80px;
+    margin-left: 16px;
+    gap: 16px;
+}
+
+.home-features-card {
+    width: 458.67px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    border: 1px solid var(--black);
+    border-radius: 32px;
+    text-align: center;
+
+    .h3-title {
+        margin-top: 24px;
+    }
+
+    .features-card-desc {
+        width: 394.67px;
+        margin: 24px auto 0;
+        font-family: 'General Sans', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        color: var(--black);
+    }
+}

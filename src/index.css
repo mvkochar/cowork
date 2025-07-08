@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white: #FFFFFF;
+  --black: #000000;
+  --blue: #3139FB;
+  --tammed-yellow: #FFFADD;
+  --bold-red: #FF3333;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  width: 1440px;
+  margin: 0 auto;
+  font-family: "Inter", sans-serif;
+  background-color: #F9F9F9;
+}
+
+.d-b {
+  display: block;
+}
+
+.d-f {
+  display: flex;
+}
+
+.jc-sb {
+  justify-content: space-between;
+}
+
+.jc-sa {
+  justify-content: space-around;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.d-n {
+  display: none;
+}
+
+.d-b {
+  display: block;
+}
+
+.pos-r {
+  position: relative;
+}
+
+.btn-clear {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.cur-p {
+  cursor: pointer;
+}
+
+.fw-bold {
+  font-weight: 700;
+}
+
+.fw-medium {
+  font-weight: 500;
+}
+
+.fw-black {
+  font-weight: 900;
+}
+
+.h1-title,
+.h2-title,
+.h3-title,
+.subheading {
+  font-family: "Neue Regrade Bold";
+}
+
+.h1-title {
+  font-size: 96px;
+  line-height: 100%;
+  letter-spacing: -.01em;
+  color: var(--black);
+}
+
+.h2-title {
+  font-size: 48px;
+  line-height: 120%;
+  color: var(--black);
+}
+
+.h3-title {
+  font-size: 24px;
+  line-height: 140%;
+  color: var(--black);
+}
+
+.subheading {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 140%;
+  color: var(--black);
+}
