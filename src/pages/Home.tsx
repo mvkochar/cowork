@@ -65,6 +65,113 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <section className='home-virtual'>
+        <div className="home-virtual-heading d-f jc-sb">
+          <h2 className="h1-title">Virtual Tour</h2>
+          <div className="home-virtual-action d-f align-center">
+            <p className="home-virtual-desc">
+              Our immersive 📺 video tour gives you a sneak peek
+              into the vibrant atmosphere that define the Cowork experience.
+            </p>
+            <a href="" className="home-virtual-link">Explore Spaces</a>
+          </div>
+        </div>
+        <div className="home-virtual-video">
+          <iframe width="1408" height="700" src="https://www.youtube.com/embed/6TDRLkctTvo?si=5WgdpU4JvqZ9W62r" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+        </div>
+      </section>
+      <section className='home-statistic d-f'>
+        <div className="home-statistic-content">
+          <h4 className="home-statistic-above">Cowork in Numbers</h4>
+          <h2 className="h2-title">Transformative Statistics That Speak Volumes</h2>
+          <div className="home-statistic-box d-f">
+            <dl>
+              <dt className='h2-title'>240%</dt>
+              <dd>Community Growth</dd>
+            </dl>
+            <dl>
+              <dt className='h2-title'>99%</dt>
+              <dd>Technology Uptime</dd>
+            </dl>
+            <dl>
+              <dt className='h2-title'>50+</dt>
+              <dd>Happy Members</dd>
+            </dl>
+            <dl>
+              <dt className='h2-title'>100%</dt>
+              <dd>Renewable Energy Sources</dd>
+            </dl>
+          </div>
+        </div>
+        <div><img src="/images/home-statistic.png" alt="home-statistic" /></div>
+      </section>
+      <section className='home-testimonial'>
+        <div className="home-testimonial-heading d-f jc-sb">
+          <h2 className="h1-title">Hear It from Our Clients</h2>
+          <h4 className="subheading">Cowork in Words</h4>
+        </div>
+        <div className="home-testimonial-box d-f">
+          <div className="home-testimonial-item">
+            <div><img src="/images/avatars/person-1.png" alt="person-1" /></div>
+            <p className="testimonial-item-desc">
+              "The 24/7 access and secure facilities have been incredibly convenient
+              for my team's flexible schedules. We love the coworking space!"
+            </p>
+            <div className="testimonial-item-author">
+              <h3 className="author-name">Liam Brown</h3>
+              <p className="authot-pos">Software Engineer, TechStartup Innovations</p>
+            </div>
+          </div>
+          <div className="home-testimonial-item">
+            <div><img src="/images/avatars/person-2.png" alt="person-2" /></div>
+            <p className="testimonial-item-desc">
+              “The aesthetics of Cowork are inspiring. The attention
+              to detail in the design creates an atmosphere that sparks
+              creativity. It's a place where ideas flow effortlessly,
+              and collaboration happens organically.”
+            </p>
+            <div className="testimonial-item-author">
+              <h3 className="author-name">Michael Rodriguez</h3>
+              <p className="authot-pos">Creative Director, DesignCraft Studio</p>
+            </div>
+          </div>
+          <div className="home-testimonial-item">
+            <div><img src="/images/avatars/person-3.png" alt="person-3" /></div>
+            <p className="testimonial-item-desc">
+              "As a freelance designer, I was getting tired of working from home or coffee shops.
+              The coworking space has provided me with a productive and professional environment
+              to focus on my work."
+            </p>
+            <div className="testimonial-item-author">
+              <h3 className="author-name">Michael Thompson</h3>
+              <p className="authot-pos">Graphic Designer, DesignCo</p>
+            </div>
+          </div>
+          <div className="home-testimonial-item">
+            <div><img src="/images/avatars/person-4.png" alt="person-4" /></div>
+            <p className="testimonial-item-desc">
+              "The coworking space has been a wonderful resource for my team.
+              The open floor plan and dedicated private offices allow us to
+              collaborate and concentrate as needed."
+            </p>
+            <div className="testimonial-item-author">
+              <h3 className="author-name">David Wilson</h3>
+              <p className="authot-pos">Project Manager, SoftwareSolutions LLC</p>
+            </div>
+          </div>
+          <div className="home-testimonial-item">
+            <div><img src="/images/avatars/person-5.png" alt="person-5" /></div>
+            <p className="testimonial-item-desc">
+              "The flexible membership options and amenities like high-speed internet, printers, 
+              and meeting rooms have made this coworking space a perfect fit for my small business."
+            </p>
+            <div className="testimonial-item-author">
+              <h3 className="author-name">Alex Nguyen</h3>
+              <p className="authot-pos">Marketing Consultant, Maverick Marketing</p>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   )
 }
