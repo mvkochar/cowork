@@ -1,3 +1,6 @@
+import { BlogItem, FaqItem } from '../components'
+import BlogItemsList from '../db/BlogItemsList'
+import FaqItemslist from '../db/FaqItemsList'
 import './css/Home.css'
 
 const Home = () => {
@@ -162,7 +165,7 @@ const Home = () => {
           <div className="home-testimonial-item">
             <div><img src="/images/avatars/person-5.png" alt="person-5" /></div>
             <p className="testimonial-item-desc">
-              "The flexible membership options and amenities like high-speed internet, printers, 
+              "The flexible membership options and amenities like high-speed internet, printers,
               and meeting rooms have made this coworking space a perfect fit for my small business."
             </p>
             <div className="testimonial-item-author">
@@ -171,6 +174,62 @@ const Home = () => {
             </div>
           </div>
         </div>
+      </section>
+      <section className='home-faq d-f'>
+        <div>
+          <h4 className="home-faq-above">Frequently Asked Questions</h4>
+          <h2 className="h2-title">Your Roadmap to Coworking Clarity</h2>
+          <p className="home-faq-desc">
+            Frequently asked questions ordered by popularity.
+            Remember that if the visitor has not committed to the
+            call to action, they may still have questions (doubts)
+            that can be answered.
+          </p>
+        </div>
+        <div className="home-faq-box d-f">
+          {
+            FaqItemslist.map((faq) => {
+              return (
+                <FaqItem
+                  key={`faq${faq.id}`}
+                  {...faq}
+                />
+              )
+            })
+          }
+        </div>
+      </section>
+      <section className='home-cta'>
+        <h2 className="h1-title"><span>Seize</span>The Moment Join Cowork Today!</h2>
+        <p className="home-cta-desc">
+          Uncover the transformative power of Cowork as echoed by those
+          who've made it their professional haven. This is more than
+          finding a desk; it's discovering a community that fuels your
+          journey to success.
+        </p>
+        <a href="" className="home-cta-link">Claim Your Spot</a>
+      </section>
+      <section className='home-blog'>
+        <h4 className="home-blog-above">Cowork Chronicles</h4>
+        <h2 className="h2-title">Insights, Innovation, and <span>Inspiration</span></h2>
+        <p className="home-blog-desc">
+          Stay updated on the latest trends in coworking,
+          productivity tips, and success stories that define
+          the Cowork experience.
+        </p>
+        <div className="home-blog-box d-f">
+          {
+            BlogItemsList.filter((elem) => elem.id < 4).map((post) => {
+              return (
+                <BlogItem
+                  key={`latest-posts{${post.id}}`}
+                  {...post}
+                />
+              )
+            })
+          }
+        </div>
+        <a href="" className="home-blog-link">View All</a>
       </section>
     </>
   )

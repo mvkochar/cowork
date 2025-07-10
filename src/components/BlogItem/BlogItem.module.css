@@ -1,0 +1,30 @@
+.blog_item {
+    width: 488.67px;
+}
+
+.blog_item_info {
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+    gap: 16px;
+    font-family: 'General Sans', sans-serif;
+    font-size: 14px;
+    color: var(--black);
+}
+
+.blog_item_cat {
+    width: fit-content;
+    padding: 4px 8px;
+    border: 1px solid var(--black);
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.blog_item_title {
+    width: 416px;
+    margin-top: 16px;
+    font-family: "Neue Regrade Bold";
+    font-size: 24px;
+    line-height: 140%;
+    color: var(--black);
+}
