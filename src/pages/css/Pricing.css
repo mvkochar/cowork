@@ -1,0 +1,174 @@
+.pricing-main {
+    margin-top: 48px;
+    margin-left: 16px;
+    margin-right: 16px;
+    padding-top: 72px;
+    padding-bottom: 48px;
+    padding-left: 32px;
+    padding-right: 32px;
+    background-color: var(--black);
+    border-radius: 32px;
+
+    .h1-title {
+        background: url("/images/price-tag.png") no-repeat 408.53px;
+        background-position-y: 112.51px;
+        text-transform: uppercase;
+        color: var(--white);
+    }
+}
+
+.pricing-main-desc {
+    width: 320px;
+    align-self: flex-end;
+    font-family: 'General Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--white);
+}
+
+.pricing-main-content {
+    margin-top: 64px;
+    gap: 16px;
+}
+
+.pricing-item {
+    width: 437.31px;
+    padding: 32px;
+    background-color: var(--tammed-yellow);
+    border-radius: 24px;
+    color: var(--black);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pricing-item-heading {
+    gap: 12px;
+}
+
+.pricing-item-popular {
+    width: fit-content;
+    height: 18px;
+    padding-left: 12px;
+    padding-right: 12px;
+    background-color: var(--bold-red);
+    border-radius: 100px;
+    font-family: 'General Sans', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: var(--white);
+}
+
+.pricing-item-desc,
+.pricing-item-starting {
+    font-family: 'General Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.pricing-itm-desc {
+    margin-top: 8px;
+}
+
+.pricing-item-starting {
+    margin-bottom: 8px;
+}
+
+.pricing-item-price {
+    font-family: "Neue Regrade Bold";
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 1.2;
+
+    span {
+        font-size: 32px;
+    }
+}
+
+.pricing-item-note {
+    font-family: 'General Sans', sans-serif;
+    font-size: 14px;
+    line-height: 180%;
+}
+
+.pricing-item-features {
+    list-style-type: none;
+
+    li {
+        margin-bottom: 12px;
+        font-family: 'General Sans', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.pricing-item .bonus-title {
+    font-family: 'General Sans', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 150%;
+    text-transform: uppercase;
+}
+
+.pricing-item .bonus-box {
+    margin-top: 12px;
+    gap: 12px;
+}
+
+.pricing-item .bonus-box .bonus-item {
+    width: fit-content;
+    padding-left: 12px;
+    padding-right: 12px;
+    border: 1px solid var(--black);
+    border-radius: 100px;
+    font-family: 'General Sans', sans-serif;
+    font-size: 14px;
+    line-height: 180%;
+}
+
+.pricing-item-subscribe {
+    display: block;
+    width: 377.33px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: var(--blue);
+    border-radius: 100px;
+    font-family: 'General Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    color: var(--white);
+}
+
+.pricing-item:nth-child(1) {
+    height: 614px;
+    margin-top: 146px;
+}
+
+.pricing-item:nth-child(2) {
+    height: 692px;
+    margin-top: 68px;
+    background-color: var(--white);
+}
+
+.pricing-item:nth-child(3) {
+    height: 760px;
+}
+
+.pricing-main-agreement {
+    margin-top: 32px;
+    font-family: 'General Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: var(--white);
+}
