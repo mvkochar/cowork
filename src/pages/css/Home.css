@@ -143,7 +143,7 @@
 
     .h1-title {
         width: 417px;
-        background: url("/public/images/virtual-tour-icon.svg") no-repeat 264px;
+        background: url("/images/virtual-tour-icon.svg") no-repeat 264px;
         background-position-y: 121px;
         text-transform: uppercase;
         color: var(--white);
@@ -399,7 +399,7 @@
     border-radius: 32px;
 
     .h1-title {
-        background: url('/public/images/cta-inline.png') no-repeat 356px;
+        background: url('/images/cta-inline.png') no-repeat 356px;
         background-position-y: top;
         line-height: 1.2;
         text-transform: uppercase;
@@ -441,6 +441,7 @@
 
 .home-blog {
     margin-top: 144px;
+    margin-bottom: 104px;
 
     .h2-title {
         width: 768px;
@@ -450,7 +451,6 @@
         background: url("/images/blog-inline.png") no-repeat;
         background-position-y: 61px;
         background-position-x: 165px;
-
 
         span {
             margin-left: 254px;

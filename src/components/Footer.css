@@ -1,0 +1,101 @@
+.footer-bar {
+    margin-left: 16px;
+    margin-right: 16px;
+    padding: 32px 48px;
+    background-color: var(--black);
+    border-radius: 32px;
+    color: var(--white);
+
+    >div:nth-child(1) {
+        width: 500px;
+
+        >div:nth-child(1) {
+            margin-bottom: 32px;
+        }
+    }
+}
+
+.footer-note {
+    font-family: 'General Sans', sans-serif;
+    font-size: 14px;
+    line-height: 180%;
+}
+
+.footer-subscribe {
+    margin-top: 24px;
+    margin-bottom: 24px;
+
+    input {
+        width: 350px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 12px;
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid var(--white);
+        font-family: 'General Sans', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        color: var(--white);
+
+        &::placeholder {
+            color: rgba(255, 255, 255, .8);
+        }
+    }
+
+    button {
+        width: 126px;
+        margin-left: 24px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        background-color: var(--white);
+        border: none;
+        border-radius: 100px;
+        cursor: pointer;
+        font-family: 'General Sans', sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+        color: var(--black);
+    }
+}
+
+.footer-bl-title {
+    margin-bottom: 16px;
+    font-family: 'General Sans', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 150%;
+    text-transform: uppercase;
+}
+
+.footer-bl-list {
+    list-style-type: none;
+
+    li {
+        margin-bottom: 8px;
+        font-family: 'General Sans', sans-serif;
+        font-size: 14px;
+        line-height: 180%;
+
+        a {
+            color: var(--white);
+        }
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.footer-info {
+    margin: 32px 16px;
+}
+
+.footer-info-links {
+    gap: 24px;
+
+    a {
+        text-decoration: underline;
+        color: var(--black);
+    }
+}
