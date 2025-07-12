@@ -172,3 +172,68 @@
     text-align: center;
     color: var(--white);
 }
+
+.pricing-services {
+    margin-top: 96px;
+    margin-bottom: 80px;
+
+    .h2-title {
+        text-align: center;
+        background: url("/images/pricing-services.png") no-repeat center;
+
+        span {
+            margin-left: 212px;
+        }
+    }
+}
+
+.pricing-services-box {
+    margin-top: 48px;
+    margin-left: 16px;
+    gap: 16px;
+}
+
+.pricing-services-item {
+    width: 458.67px;
+    height: 346px;
+    padding: 32px;
+    border: 1px solid var(--black);
+    border-radius: 32px;
+    color: var(--black);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+    .h2-title {
+        background: none;
+    }
+
+    .services-item-desc {
+        margin-top: 8px;
+        font-family: 'General Sans', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+    }
+
+    .services-item-note {
+        font-size: 14px;
+        line-height: 180%;
+    }
+
+    .services-item-add {
+        display: block;
+        width: 394.67px;
+        margin-bottom: 12px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        background-color: var(--blue);
+        border-radius: 100px;
+        font-family: 'General Sans', sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+        color: var(--white);
+    }
+}

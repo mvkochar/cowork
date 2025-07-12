@@ -99,6 +99,53 @@ const Pricing = () => {
                 </div>
                  <p className="pricing-main-agreement">All plans require a 12-month agreement. Prices are per person.</p>   
             </main>
+            <section className='pricing-services'>
+                <h2 className="h2-title">Add-ons <span>Services</span></h2>
+                <div className="pricing-services-box d-f">
+                    <div className="pricing-services-item">
+                        <div>
+                            <h3 className="h3-title">Day Office</h3>
+                            <p className="services-item-desc">Rent a private office for just the day</p>
+                        </div>
+                        <div>
+                            <h4 className="h2-title">$25</h4>
+                            <p className="services-item-note">maximum 15 days/month</p>
+                        </div>
+                        <div>
+                            <a href="" className="services-item-add">Add to Your Subscription</a>
+                            <p className="services-item-note">Require minimum Hot Desk subscription</p>
+                        </div>
+                    </div>
+                     <div className="pricing-services-item">
+                        <div>
+                            <h3 className="h3-title">Conference Room</h3>
+                            <p className="services-item-desc">Book rooms for meetings or presentationsy</p>
+                        </div>
+                        <div>
+                            <h4 className="h2-title">$35/hr</h4>
+                            <p className="services-item-note">24-hour cancellation required</p>
+                        </div>
+                        <div>
+                            <a href="" className="services-item-add">Add to Your Subscription</a>
+                            <p className="services-item-note">Require minimum Hot Desk subscription</p>
+                        </div>
+                    </div>
+                     <div className="pricing-services-item">
+                        <div>
+                            <h3 className="h3-title">Dedicated Desk Assistant</h3>
+                            <p className="services-item-desc">Get support from a dedicated assistant</p>
+                        </div>
+                        <div>
+                            <h4 className="h2-title">$99/mo</h4>
+                            <p className="services-item-note">Pause or cancel anytime</p>
+                        </div>
+                        <div>
+                            <a href="" className="services-item-add">Add to Your Subscription</a>
+                            <p className="services-item-note">Require minimum Dedicated Desk subscription</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </>
     )
 }
