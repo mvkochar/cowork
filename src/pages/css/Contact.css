@@ -1,0 +1,139 @@
+.contact-main {
+    margin-top: 48px;
+    margin-bottom: 80px;
+    margin-left: 16px;
+    padding-top: 72px;
+    padding-bottom: 48px;
+    padding-left: 32px;
+    padding-right: 32px;
+    background-color: var(--black);
+    border-radius: 32px;
+
+
+    .h1-title {
+        color: var(--white);
+
+        &::after {
+            display: inline-block;
+            content: '';
+            width: 64px;
+            height: 64px;
+            margin-left: 21.93px;
+            padding-bottom: 4px;
+            background: url("/images/chat-bubles.png") no-repeat;
+            background-position-y: 9px;
+        }
+    }
+}
+
+.contact-desc {
+    width: 320px;
+    font-family: 'General Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--white);
+}
+
+.contact-box {
+    margin-top: 64px;
+}
+
+.contact-info {
+    flex-direction: column;
+    gap: 32px;
+
+    dl {
+        dt {
+            color: var(--white);
+        }
+
+        dd {
+            margin-top: 4px;
+            font-family: 'General Sans', sans-serif;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 150%;
+            color: var(--white);
+        }
+    }
+}
+
+.contact-fm {
+    .input-box {
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    input,
+    select,
+    textarea {
+        display: block;
+        width: 901px;
+        padding-top: 12px;
+        padding-left: 12px;
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid var(--white);
+        outline: none;
+        font-family: 'General Sans', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+    input,
+    select {
+        padding-bottom: 12px;
+    }
+
+    input,
+    textarea {
+        color: var(--white);
+
+        &::placeholder {
+            color: rgba(255, 255, 255, .8);
+        }
+    }
+
+    select {
+        color: rgba(255, 255, 255, .8);
+    }
+
+    textarea {
+        height: 160px;
+        resize: none;
+    }
+
+    .input-bl {
+        gap: 16px;
+
+        input {
+            width: 442.5px;
+        }
+    }
+
+    button {
+        display: block;
+        width: 104px;
+        margin-top: 32px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        background-color: var(--white);
+        border: none;
+        border-radius: 100px;
+        cursor: pointer;
+        font-family: 'General Sans', sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+        color: var(--black);
+    }
+}
+
+.contact-fm-note {
+    width: 780px;
+    margin-top: 32px;
+    font-family: 'General Sans', sans-serif;
+    font-size: 14px;
+    line-height: 180%;
+    color: var(--white);
+}
