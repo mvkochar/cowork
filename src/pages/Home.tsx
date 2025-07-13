@@ -1,6 +1,5 @@
-import { BlogItem, Cta, FaqItem } from '../components'
+import { BlogItem, Cta, FaqBlock } from '../components'
 import BlogItemsList from '../db/BlogItemsList'
-import FaqItemslist from '../db/FaqItemsList'
 import './css/Home.css'
 
 const Home = () => {
@@ -175,31 +174,8 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className='home-faq d-f'>
-        <div>
-          <h4 className="home-faq-above">Frequently Asked Questions</h4>
-          <h2 className="h2-title">Your Roadmap to Coworking Clarity</h2>
-          <p className="home-faq-desc">
-            Frequently asked questions ordered by popularity.
-            Remember that if the visitor has not committed to the
-            call to action, they may still have questions (doubts)
-            that can be answered.
-          </p>
-        </div>
-        <div className="home-faq-box d-f">
-          {
-            FaqItemslist.map((faq) => {
-              return (
-                <FaqItem
-                  key={`faq${faq.id}`}
-                  {...faq}
-                />
-              )
-            })
-          }
-        </div>
-      </section>
-      <Cta/>
+      <FaqBlock />
+      <Cta />
       <section className='home-blog'>
         <h4 className="home-blog-above">Cowork Chronicles</h4>
         <h2 className="h2-title">Insights, Innovation, and <span>Inspiration</span></h2>
