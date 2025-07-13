@@ -1,4 +1,4 @@
-import { BlogItem, FaqItem } from '../components'
+import { BlogItem, Cta, FaqItem } from '../components'
 import BlogItemsList from '../db/BlogItemsList'
 import FaqItemslist from '../db/FaqItemsList'
 import './css/Home.css'
@@ -199,16 +199,7 @@ const Home = () => {
           }
         </div>
       </section>
-      <section className='home-cta'>
-        <h2 className="h1-title"><span>Seize</span>The Moment Join Cowork Today!</h2>
-        <p className="home-cta-desc">
-          Uncover the transformative power of Cowork as echoed by those
-          who've made it their professional haven. This is more than
-          finding a desk; it's discovering a community that fuels your
-          journey to success.
-        </p>
-        <a href="" className="home-cta-link">Claim Your Spot</a>
-      </section>
+      <Cta/>
       <section className='home-blog'>
         <h4 className="home-blog-above">Cowork Chronicles</h4>
         <h2 className="h2-title">Insights, Innovation, and <span>Inspiration</span></h2>
