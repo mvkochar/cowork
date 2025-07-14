@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import { BlogItem, Cta, FaqBlock } from '../components'
 import BlogItemsList from '../db/BlogItemsList'
 import './css/Home.css'
@@ -196,7 +197,7 @@ const Home = () => {
             })
           }
         </div>
-        <a href="" className="home-blog-link">View All</a>
+        <Link to="/blog" className="home-blog-link">View All</Link>
       </section>
     </>
   )
